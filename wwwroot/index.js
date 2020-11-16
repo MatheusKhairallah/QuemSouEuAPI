@@ -3,7 +3,7 @@ const iniciar=async () =>{
 
     const response= await fetch('/QuemSouEu');
     const result= await response.json();
-    mensagem.innerHTML= `<a href="${result.nome}">${result.sobrenome}</a>`;
+    mensagem.innerHTML= `<a href="${result.nome}">${result.sobrenome}>${result.usuarioGit}</a>`;
 };
 
 document.addEventListener('DOMContentLoaded', iniciar);
