@@ -2,14 +2,20 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    background-color: black;
 }
 
 body > * {
     flex: 1;
 }
 
+h1 {
+    color: darkcyan;
+}
+
 #mensagem {
     font-size: 2em;
     color: darkcyan;
+    text-align: center;
 }
