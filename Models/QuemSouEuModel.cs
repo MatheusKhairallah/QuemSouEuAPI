@@ -6,6 +6,8 @@ namespace QuemSouEuAPI.Models
 
         public string sobrenome {get; set;}
 
+        public string url {get; set;}
+        
         public string usuarioGit {get; set;}
     }
 }

@@ -14,6 +14,7 @@ namespace QuemSouEuAPI.Controllers
             {
                 nome= "Matheus",
                 sobrenome= "Khairallah",
+                url= "https://github.com/MatheusKhairallah",
                 usuarioGit= "MatheusKhairallah"
             };
             return resultado;
