@@ -36,7 +36,7 @@ namespace QuemSouEuAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseDefaultFiles();
 
             app.UseStaticFiles();
 
